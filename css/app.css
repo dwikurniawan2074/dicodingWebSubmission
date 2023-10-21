@@ -140,6 +140,8 @@ main .first-content .content-description button:hover {
 }
 /* end first content styling */
 
+
+
 /* second content styling */
 #produk {
   padding-top: 100px;
@@ -189,6 +191,8 @@ main .second-content {
 }
 /* end second content styling */
 
+
+
 /* third content styling */
 main .third-content {
   width: 100%;
@@ -207,7 +211,7 @@ main .third-content {
 main .third-content .descriptions {
   display: flex;
   flex-direction: row;
-  padding: 0px 250px;
+  padding: 0px 150px 0px 300px;
 }
 
 main .third-content .descriptions .right-description {
@@ -254,11 +258,66 @@ main .third-content .descriptions .right-description {
 
 /* third content end styling */
 
+
+
+/* fourth content styling */
+main .fourth-content {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  background-image: linear-gradient(#ffffff, #deb887);
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 100px 250px 150px 250px;
+  flex-direction: row;
+}
+
+
+main .fourth-content .right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0px 100px 0px 50px;
+}
+main .fourth-content .left-content{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+main .fourth-content .left-content .location-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff5ea;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.icon-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-text i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+/* end fourth content styling */
+
+
+
 /* end styling content */
 
 /* footer styling */
 footer {
-  background-image: linear-gradient(#ffffff, #deb887);
+  background-image: linear-gradient(#deb887, #ffffff);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
