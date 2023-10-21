@@ -140,10 +140,8 @@ main .first-content .content-description button:hover {
 }
 /* end first content styling */
 
-
-
 /* second content styling */
-#produk {
+#produk, #contacts {
   padding-top: 100px;
 }
 
@@ -190,8 +188,6 @@ main .second-content {
   padding: 2px 16px;
 }
 /* end second content styling */
-
-
 
 /* third content styling */
 main .third-content {
@@ -258,8 +254,6 @@ main .third-content .descriptions .right-description {
 
 /* third content end styling */
 
-
-
 /* fourth content styling */
 main .fourth-content {
   width: 100%;
@@ -273,20 +267,20 @@ main .fourth-content {
   flex-direction: row;
 }
 
-
 main .fourth-content .right-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding: 0px 100px 0px 50px;
 }
-main .fourth-content .left-content{
+
+main .fourth-content .left-content {
   width: 60%;
   display: flex;
   justify-content: center;
 }
 
-main .fourth-content .left-content .location-card{
+main .fourth-content .left-content .location-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #fff5ea;
   transition: 0.3s;
@@ -299,19 +293,21 @@ main .fourth-content .left-content .location-card{
   width: 100%;
 }
 
-.icon-text{
+.icon-text {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.icon-text i{
+.icon-text i {
   font-size: 20px;
   margin-right: 10px;
 }
+
+.alamat-lokasi p, .email-contact p, .whatsapp-contact p{
+  margin: 0px;
+}
 /* end fourth content styling */
-
-
 
 /* end styling content */
 
@@ -342,15 +338,12 @@ footer .footer-right p {
 /* end footer styling */
 
 /* responsive styling untuk mobile */
-@media screen and (max-width: 1059px) {
-  .card-meja,
-  .card-sofa,
-  .card-kitchen {
-    margin-top: 20px !important;
-  }
-}
 
 @media screen and (max-width: 768px) {
+  #produk, #contacts {
+    padding-top: 170px;
+  }
+
   header.navbar-container {
     flex-direction: column;
   }
@@ -434,10 +427,19 @@ footer .footer-right p {
   footer .footer-right p {
     font-size: 10px;
   }
+
+  main .fourth-content {
+    padding: 40px !important;
+  }
+
+  main .fourth-content .left-content{
+    width: 100% !important;
+  }
 }
 /* end styling reposnsif mobile */
 
 @media screen and (max-width: 1059px) {
+  .card-meja,
   .card-sofa,
   .card-kitchen {
     margin-top: 20px !important;
@@ -462,6 +464,24 @@ footer .footer-right p {
   main .third-content .third-content-cards .box {
     width: 150px;
   }
+
+  main .fourth-content {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  main .fourth-content .right-content{
+    align-items: center;
+    padding: 30px 0px;
+  }
+
+  main .fourth-content .right-content *{
+    align-items: center;
+  }
+
+  .alamat-lokasi p, .email-contact p, .whatsapp-contact p{
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1379px) {
@@ -480,5 +500,15 @@ footer .footer-right p {
   .card-terjangkau,
   .card-quality {
     margin-top: 20px !important;
+  }
+
+  main .fourth-content {
+    padding: 100px;
+  }
+
+  main .fourth-content .left-content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
   }
 }
