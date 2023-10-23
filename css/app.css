@@ -153,6 +153,7 @@ main {
   justify-content: center;
   padding: 100px 50px 150px 50px;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .cards {
@@ -219,6 +220,7 @@ main {
   justify-content: space-evenly;
   flex-wrap: wrap !important;
   align-items: center;
+  gap: 20px;
 }
 
 .box {
@@ -457,13 +459,6 @@ footer .footer-right p {
     padding: 30px;
   }
 
-  .card-pengalaman,
-  .card-delivery,
-  .card-sofa,
-  .card-kitchen {
-    margin-top: 20px !important;
-  }
-
   #third-content .descriptions {
     padding: 0px 30px !important;
   }
@@ -480,11 +475,6 @@ footer .footer-right p {
 
   #third-content .third-content-cards .card-lemari {
     margin-top: 10px !important;
-  }
-
-  .card-terjangkau,
-  .card-quality {
-    margin-top: 20px !important;
   }
 
   footer .footer-left img {
@@ -515,10 +505,6 @@ footer .footer-right p {
 
 
 @media screen and (max-width: 1059px) {
-  .card-sofa,
-  .card-kitchen {
-    margin-top: 20px !important;
-  }
 
   #third-content {
     flex-direction: column;
@@ -583,17 +569,8 @@ footer .footer-right p {
     padding-right: 10px;
   }
 
-  .card-kitchen {
-    margin-top: 20px !important;
-  }
-
   #third-content .descriptions {
     padding: 0px 100px;
-  }
-
-  .card-terjangkau,
-  .card-quality {
-    margin-top: 20px !important;
   }
 
   #fourth-content  {
