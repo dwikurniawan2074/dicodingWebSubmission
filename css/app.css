@@ -69,7 +69,7 @@ header.navbar-container .nav-list li .contact:hover a {
 /* end styling header */
 
 /* styling content */
-main {
+main, .contents {
   width: 100%;
   display: flex;
   margin-inline: auto;
